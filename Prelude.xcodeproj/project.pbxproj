@@ -732,6 +732,8 @@
 				8023ED2E1E9AC7660044504B /* PBXTargetDependency */,
 			);
 			name = "Prelude-iOS";
+			packageProductDependencies = (
+			);
 			productName = Prelude;
 			productReference = A7FD08641C81E1DA00332CCB /* Prelude.framework */;
 			productType = "com.apple.product-type.framework";
@@ -842,6 +844,8 @@
 				en,
 			);
 			mainGroup = CA0923EE1BB6291800C9EC88;
+			packageReferences = (
+			);
 			productRefGroup = CA0923F91BB6291900C9EC88 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -1388,6 +1392,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Prelude/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies -Onone";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kickstarter.Prelude;
@@ -1408,6 +1413,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Prelude/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kickstarter.Prelude;
 				SDKROOT = iphoneos;
